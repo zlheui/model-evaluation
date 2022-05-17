@@ -1,0 +1,26 @@
+{
+  "source_train_pth1": "./data/datalist/training_mr.txt",
+  "target_train_pth1": "./data/datalist/training_ct.txt",
+  "source_val_pth1": "./data/datalist/validation_mr.txt",
+  "target_val_pth1": "./data/datalist/validation_ct.txt",
+  
+  "source_train_pth": "./data/datalist/training_ct.txt",
+  "target_train_pth": "./data/datalist/training_mr.txt",
+  "source_val_pth": "./data/datalist/validation_ct.txt",
+  "target_val_pth": "./data/datalist/validation_mr.txt",
+  "output_root_dir": "/hdd7/zhulei/cross-modality/output",
+
+  "pool_size": 50,
+  "_LAMBDA_A": 10,
+  "_LAMBDA_B": 10,
+  "skip": 1,
+  "num_cls": 5,
+  "base_lr":0.0002,
+  "max_step": 20000,
+  "keep_rate_value": 1.0,
+  "is_training_value": 1,
+  "batch_size": 6,
+  "lr_gan_decay": 0,
+  "to_restore": 0,
+  "checkpoint_dir": ""
+}

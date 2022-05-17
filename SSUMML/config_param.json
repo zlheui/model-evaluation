@@ -1,0 +1,27 @@
+{
+  "source_train_pth": "../data/datalist-semi/training_mr_0.08.txt",
+  "target_train_pth": "../data/datalist-semi/training_ct_0.08.txt",
+  "source_val_pth": "../data/datalist-semi/validation_mr_0.08.txt",
+  "target_val_pth": "../data/datalist-semi/validation_ct_0.08.txt",
+  "source_unlabeled_pth": "../data/datalist-semi/unlabeled_training_mr_0.08.txt",
+  "target_unlabeled_pth": "../data/datalist-semi/unlabeled_training_ct_0.08.txt",
+
+  "labeled_batch": 4,
+  "unlabeled_batch": 4,
+
+  "output_root_dir": "/hdd8/zhulei/synthesize/output",
+  "pool_size": 50,
+  "_LAMBDA_A": 10,
+  "_LAMBDA_B": 10,
+  "skip": 1,
+  "num_cls": 5,
+  "base_lr":0.0002,
+  "max_step": 40000,
+  "keep_rate_value": 1.0,
+  "is_training_value": 1,
+  "batch_size": 8,
+  "lr_gan_decay": 0,
+  "to_restore": 0,
+  "checkpoint_dir": " "
+}
+

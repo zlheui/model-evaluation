@@ -1,0 +1,22 @@
+{
+  "source_train_pth": "../data/organ/testing_mr.txt",
+  "target_train_pth": "../data/organ/testing_ct.txt",
+  "source_val_pth": "../data/organ/testing_mr.txt",
+  "target_val_pth": "../data/organ/testing_ct.txt",
+  
+  "output_root_dir": "/hdd3/zhulei/cross-modality/output",
+
+  "pool_size": 50,
+  "_LAMBDA_A": 10,
+  "_LAMBDA_B": 10,
+  "skip": 1,
+  "num_cls": 5,
+  "base_lr":0.0002,
+  "max_step": 383,
+  "keep_rate_value": 1.0,
+  "is_training_value": 1,
+  "batch_size": 1,
+  "lr_gan_decay": 0,
+  "to_restore": 1,
+  "checkpoint_dir": "../weights/organ/CDVA-CT-mri-to-ct/sifa-19999"
+}
